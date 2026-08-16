@@ -36,5 +36,13 @@ public static boolean identical(int[] numbers1 , int[] numbers2){
         return true;
     }
 }
+/*
+Output :
+enter size of first array 4
+enter size of second array 3
+enter 4 numbers 1 2 3 4
+enter 3 numbers 1 4 6
+the array are not identical
+*/    
 
 
