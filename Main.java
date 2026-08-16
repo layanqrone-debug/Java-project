@@ -27,3 +27,17 @@ System.out.println("the sum of negative numbers : "+ sumnegativie);
 System.out.println("the sum of all numbers : "+ sum);
 }
 }
+/*
+Output :
+
+Enter an integers or 0 to stop: 5
+Enter an integers or 0 to stop -3
+Enter an integers or 0 to stop 9
+Enter an integers or 0 to stop -2
+Enter an integers or 0 to stop 0
+positive: 2
+negativie: 2
+the sum of positive numbers : 14
+the sum of negative numbers : -5
+the sum of all numbers : 9
+*/
