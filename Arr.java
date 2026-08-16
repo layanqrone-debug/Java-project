@@ -43,4 +43,15 @@ for(int columns=0 ;columns<arr[0].length; columns++){
     
         }
     }   
-
+/*
+Output :
+ write 3x4value
+8 9 -3 0
+1 0 5 7
+0 4 2 9
+positive values 8 sum positive number 45
+negative values 1 sum of negative number -3
+zero values3
+sum of first row14
+sum of second columns4
+*/
