@@ -47,3 +47,22 @@ public  class Constructor{
      System.out.println("gpa = "+gpa);
  }   
 }
+/*
+output:
+name = null
+age = 0
+major = null
+gpa = 0.0
+name = layan
+age = 20
+major = MIS
+gpa = 3.8
+name = layan
+age = 20
+major = MIS
+gpa = 3.8
+name = jana
+age = 0
+major = null
+gpa = 2.6
+    */
