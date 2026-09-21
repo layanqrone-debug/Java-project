@@ -30,3 +30,12 @@ System.out.println("try another number ,Remaining attempts"+attempts);
         
     }
 }   
+/*
+Enter a number 1
+try another number ,Remaining attempts2
+Enter a number 0
+try another number ,Remaining attempts1
+Enter a number 9
+THREE
+
+*/
