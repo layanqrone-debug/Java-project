@@ -21,3 +21,13 @@ System.out.println("THE PLUS "+ (double) plus);
         System.out.println("Integer gpa "+ (int)gpa);  
     }
 }
+/*
+    Enter your grades 80
+79
+the grades :80 79
+the sum of the grades is = 159
+the GPA is = 79.5
+THE PLUS 159.0
+Integer gpa 79
+
+*/
