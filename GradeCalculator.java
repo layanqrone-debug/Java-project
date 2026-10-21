@@ -18,7 +18,7 @@ System.out.println("the GPA is = " +GPA);
 System.out.println("THE PLUS "+ (double) plus);
         // narrowing(casting )
        int gpa = (int) GPA  ;
-        System.out.println("Integer gpa "+ (int)gpa);  
+        System.out.println("Integer gpa "+ gpa);  
     }
 }
 /*
