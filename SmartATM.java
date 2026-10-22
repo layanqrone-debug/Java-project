@@ -97,3 +97,40 @@ class SmartATM {
                                  input.close();
                                     }
                                     }
+ 
+/*
+Enter your PIN 
+1234
+Login successful
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, pleas choose an option   
+1
+your balance is 1000.00
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, pleas choose an option   
+2
+Enter deposit amount : 
+800
+deposit successful. Balance1800.00====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, pleas choose an option   
+4
+Account status:silver
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, pleas choose an option   
+3
+Enter Withdraw amount : 
+290
+successful withdraw. Balance1510.0
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, pleas choose an option   
+5
+Enter your current PIN : 
+1234
+Enter new 4-digits PIN : 
+9841
+PIN changed successfully
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, pleas choose an option   
+6
+thank you 
+*/
