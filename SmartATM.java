@@ -58,13 +58,22 @@ System.out.printf("your balance is %.2f%n",Balance );
                         
                      case 2 :
 System.out.println("Enter deposit amount : ");
+                         if(!input.hasNextDouble()) {
+System.out.println("Invaild ! just numbers ");
+    input.next();
+                         }
+                             else{
                       double deposit = input.nextDouble();
+                                 
                          if (deposit>0){
                            Balance += deposit; 
                            transactioncount++;  
 System.out.printf("deposit successful. Balance%.2f\n",Balance);      
-                          }else {
-System.out.println("MUST BE POSITIVE!.");    }                        break;
+                          }
+                             else {
+System.out.println("MUST BE POSITIVE!.");    } 
+                             } 
+                             break;
                         
                           case 3 :
 System.out.println("Enter Withdraw amount : ");
@@ -129,3 +138,6 @@ System.out.printf("number of succesful transactions %d\n",transactioncount);
 input.close();
 }
 }
+/*
+
+*/
