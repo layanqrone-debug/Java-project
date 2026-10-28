@@ -113,9 +113,15 @@ else{
                         
                                case 5 :
 System.out.println("Enter your current PIN : ");
+         if(!input.hasNextDouble()){
+System.out.println("only numbers ");  
+             input.next();
+                             }
+                             else{
 int currentpin = input.nextInt();
                    if (currentpin==pin){
-System.out.println("Enter new 4-digits PIN : ");                              int Newpin = input.nextInt();
+System.out.println("Enter new 4-digits PIN : ");   
+                   int Newpin = input.nextInt();
             if (Newpin >= 1000 && Newpin <= 9999)   {
                  pin = Newpin;
 System.out.println("PIN changed successfully");                    }        
@@ -124,9 +130,12 @@ System.out.println("must be 4-digits");
                                }
                              } else{
 System.out.println(" incorrect current PIN ");                         }
-                             break;                    
+                             }
+                             break;  
+                             
                                  case 6 :
-                                                         System.out.println("thank you ");break;
+System.out.println("thank you ");
+                             break;
 
                          case 7 :
 System.out.printf("number of succesful transactions %d\n",transactioncount);
