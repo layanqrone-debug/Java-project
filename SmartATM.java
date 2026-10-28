@@ -152,7 +152,71 @@ System.out.println("SmartATM ");
 input.close();
 }
 }
-
 /*
-
+output:
+Enter your PIN 
+1LK
+Invaild PIN ! 
+Attempts remaining:2
+Enter your PIN 
+2
+Incorrect try again
+Attempts remaining:1
+Enter your PIN 
+1234
+Login successful
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, 7.Transaction History , pleas choose an option   
+3
+Enter Withdraw amount : 
+300
+successful withdraw. Balance 100.0
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, 7.Transaction History , pleas choose an option   
+5
+Enter your current PIN : 
+1234
+Enter new 4-digits PIN : 
+9040
+PIN changed successfully
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, 7.Transaction History , pleas choose an option   
+2
+Enter deposit amount : 
++ 300
+Invaild ! just numbers 
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, 7.Transaction History , pleas choose an option   
+ invalid option . choose 1-7 
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, 7.Transaction History , pleas choose an option   
+2
+Enter deposit amount : 
+300
+deposit successful. Balance400.00
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, 7.Transaction History , pleas choose an option   
+3
+Enter Withdraw amount : 
+300
+ Daily limit exceeded 
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, 7.Transaction History , pleas choose an option   
+3
+Enter Withdraw amount : 
+200
+successful withdraw. Balance 200.0
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, 7.Transaction History , pleas choose an option   
+7
+number of succesful transactions 3
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, 7.Transaction History , pleas choose an option   
+4
+Account status:Basic
+====Smart ATM====
+optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, 7.Transaction History , pleas choose an option   
+6
+thank you 
+SmartATM
 */
