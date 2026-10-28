@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 class SmartATM {
     public static void main (String[]args){
         Scanner input = new Scanner(System.in);
@@ -38,7 +38,7 @@ System.out.println("Account access blocked");
             }
                 //main menu 
               if(LoggedIn){
-               int choice;
+               int choice=0;
                do{
 System.out.println("====Smart ATM====");
 System.out.println("optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Money ,  4.Account Status ,  5.Change PIN ,  6.Exit, 7.Transaction History , pleas choose an option   ");
@@ -46,6 +46,7 @@ System.out.println("optiones 1.Check Balance ,  2.Deposit Money ,  3.Withdraw Mo
     if (!input.hasNextInt()) {
         System.out.println("Invalid input! Enter a number from 1 to 7.");
         input.next();
+        continue;
     }
                    
                   choice = input.nextInt();
@@ -120,8 +121,7 @@ System.out.println("only numbers ");
                              else{
 int currentpin = input.nextInt();
                    if (currentpin==pin){
-System.out.println("Enter new 4-digits PIN : ");   
-                   int Newpin = input.nextInt();
+System.out.println("Enter new 4-digits PIN : ");                              int Newpin = input.nextInt();
             if (Newpin >= 1000 && Newpin <= 9999)   {
                  pin = Newpin;
 System.out.println("PIN changed successfully");                    }        
@@ -131,22 +131,28 @@ System.out.println("must be 4-digits");
                              } else{
 System.out.println(" incorrect current PIN ");                         }
                              }
-                             break;  
-                             
+                             break;                    
                                  case 6 :
-System.out.println("thank you ");
+                                                         System.out.println("thank you ");
                              break;
 
                          case 7 :
 System.out.printf("number of succesful transactions %d\n",transactioncount);
                              break;                             
-               }    
-            } while (choice != 7);
-                                    System.out.println("Invalid option. choos 1-6");    
-                                 }
+
+                    default :
+System.out.println(" invalid option . choose 1-7 ");   
+                             break;
+            } 
+               }
+                   while(choice!=6);
+System.out.println("SmartATM ");   
+                             
+    }
 input.close();
 }
 }
+
 /*
 
 */
